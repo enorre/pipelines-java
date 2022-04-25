@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/enorre/AzDo%20Pipelines/_apis/build/status/enorre.pipelines-java?branchName=master)](https://dev.azure.com/enorre/AzDo%20Pipelines/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
