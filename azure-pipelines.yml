@@ -32,7 +32,7 @@ jobs:
 - deployment: VMDeploy
   displayName: Deploy to VM
   environment: 
-   name: 'Test Env'
+   name: TestEnv
    resourceType: VirtualMachine
   strategy:
      runOnce:
