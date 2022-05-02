@@ -28,6 +28,7 @@ steps:
       
       Write-Host $(DisplayedMessage)
 
+- stage: deploy
 jobs:
 - deployment: VMDeploy
   displayName: Deploy to VM
