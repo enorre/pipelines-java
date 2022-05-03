@@ -29,14 +29,3 @@ jobs:
         # Write your PowerShell commands here.
         
         Write-Host $(DisplayedMessage)
-- job:
-  - deployment: VMDeploy
-    displayName: Deploy to VM
-    environment: 
-    name: TestEnv
-    resourceType: VirtualMachine
-    strategy:
-      runOnce:
-          deploy:   
-            steps:
-              - script: Write-Host $env:computername
